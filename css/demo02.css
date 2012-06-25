@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background: #eeede3;
+	overflow: hidden;
+}
+
+#header{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	text-align: right;
+	z-index: 200;
+	color: #000;
+	font-size:12px;
+	padding: 10px;
+}
+
+#header h3{
+	margin: 5px 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+#header p{
+	margin: 5px 0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+a{
+	color:#fff;
+	background: rgba(0,0,0,0.5);
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+a:hover{
+	background: rgba(0,0,0,1);
+}
+
+.container{
+	position: relative;
+	color: #000;
+	z-index: 50;
+	overflow: hidden;
+}
+
+.container h3{
+	text-align: left;
+	margin: 0 0 0 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #666;
+	letter-spacing: -0.05em;
+	line-height: 72px;
+	font-size:72px;
+
+}
+
+#home{
+	background:#eeede3 url(../images/xpointtwo.jpg) center no-repeat;
+	z-index: 250;
+}
+
+#home_menu{
+	text-align: center;
+}
+
+.home_blank{
+	position: relative;
+}
+
+#gradiation{
+	background:url(../images/gradiation.png) repeat-x;
+	height: 500px;
+	position: relative;
+	z-index: 250;
+}
+
+#timeline{
+	margin:0 auto;
+	width: 730px;
+	overflow: hidden;
+}
+
+.boardwrapper{
+	width: 1752px;
+	margin: 0;
+	padding-left: 146px;
+	overflow: visible;
+	position: absolute;
+}
+
+.board{
+	position: relative;
+	float: left;
+	height: 460px;
+	width: 730px;
+	margin-left: -146px;
+}
+
+.todayline{
+	width: 365px;
+	height: 460px;
+	position: absolute;
+	left: 0px;
+	border-right: #f00 solid 1px;
+}
+
+.largepic{}
+
+.middlepic{
+	background: #fff;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+.smallpic{}
+
+.day1{
+	position: absolute;
+	left: 37px;
+	bottom: 50px;
+}
+
+.day2{
+	position: absolute;
+	left: 110px;
+	bottom: 50px;
+}
+
+.day3{
+	position: absolute;
+	left: 183px;
+	bottom: 50px;
+}
+
+.day4{
+	position: absolute;
+	left: 256px;
+	bottom: 50px;
+}
+
+.day5{
+	position: absolute;
+	left: 329px;
+	bottom: 50px;
+}
+
+.day6{
+	position: absolute;
+	left: 402px;
+	bottom: 50px;
+}
+
+.day7{
+	position: absolute;
+	left: 475px;
+	bottom: 50px;
+}
+
+.day8{
+	position: absolute;
+	left: 548px;
+	bottom: 50px;
+}
+
+#timeline ul{
+	list-style: none;
+	width: 1752px;
+	margin: 0;
+	padding-left: 146px;
+	overflow: visible;
+	position: relative;
+}
+
+#timeline ul li{
+	float: left;
+	position: relative;
+	width: 730px;
+	height: 500px;
+	margin: 0 0 0 -146px;
+	padding: 0;
+	background: url(../images/scale.gif) bottom left no-repeat;
+}
+
+.tldate1{
+	margin:0;
+	padding:0 5px;
+	position: absolute;
+	left: 73px;
+	bottom: 0px;
+	font-size: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #fff;
+}
+
+.tldate2{
+	margin:0;
+	padding:0 5px;
+	position: absolute;
+	left: 365px;
+	bottom: 0px;
+	font-size: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #fff;
+}
+
+#tlamazon{
+	position: absolute;
+	font-size:10px;
+	bottom: 20px;
+	right: 20px;
+}
+
+#footer{
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	z-index: 200;
+	color: #000;
+	padding: 10px;
+}
+
+.contents{
+	position: relative;
+	z-index: 200;
+}
+
+.ui-flickable-container {
+    cursor: pointer;
+    background: url(../images/richard.jpg) right 50% no-repeat, url(../images/richard.jpg) left 50% no-repeat;
+}
+
+.ui-flickable-wrapper{
+	background: #f3f3f3 !important;
+}
+
+.ui-flickable-disabled .ui-flickable-container, .ui-flickable-canceled {
+    cursor: default;
+}

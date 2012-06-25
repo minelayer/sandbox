@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background:#eeede3;
+	overflow: hidden;
+}
+
+#header{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	text-align: right;
+	z-index: 200;
+	color: #fff;
+	font-size:12px;
+	padding: 10px;
+}
+
+#header h3{
+	margin: 5px 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+#header p{
+	margin: 5px 0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+a{
+	color:#fff;
+	background: rgba(0,0,0,0.5);
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+a:hover{
+	background: rgba(0,0,0,1);
+}
+
+.container{
+	position: relative;
+	color: #fff;
+	z-index: 50;
+	overflow: hidden;
+}
+
+#home{
+	background:#eeede3 url(../images/xpointtwo.jpg) center no-repeat;
+	z-index: 250;
+}
+
+#home_menu{
+	text-align: center;
+}
+
+.home_blank{
+	position: relative;
+}
+
+#gradiation{
+	background:url(../images/gradiation.png) repeat-x;
+	height: 500px;
+	position: relative;
+	z-index: 250;
+}
+
+#firstfloor{}
+
+#secondfloor{}
+
+#thirdfloor{}
+
+#footer{
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 80px;
+	letter-spacing: 1em;
+	text-align: center;
+	z-index: 200;
+	color: #fff;
+}
+
+img.background{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.contents{
+	position: relative;
+	z-index: 200;
+	background: url(../images/stripe.png);
+}

@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background: #eeede3;
+}
+
+#header{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	text-align: right;
+	z-index: 200;
+	color: #000;
+	font-size:12px;
+	padding: 10px;
+}
+
+#header h3{
+	margin: 5px 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+#header p{
+	margin: 5px 0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+a.menu{
+	color:#fff;
+	background: rgba(0,0,0,0.5);
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+a.menu:hover{
+	background: rgba(0,0,0,1);
+}
+
+.container{
+	position: relative;
+	color: #000;
+	z-index: 50;
+	overflow: hidden;
+}
+
+.container h3{
+	text-align: left;
+	margin: 0 0 0 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #666;
+	letter-spacing: -0.05em;
+	line-height: 72px;
+	font-size:72px;
+
+}
+
+#home{
+	background:#eeede3 url(../images/xpointtwo.jpg) center no-repeat;
+	z-index: 250;
+}
+
+#home_menu{
+	text-align: center;
+}
+
+.home_blank{
+	position: relative;
+}
+
+#gradiation{
+	background:url(../images/gradiation.png) repeat-x;
+	height: 500px;
+	position: relative;
+	z-index: 250;
+}
+
+#timeline{
+	margin:0 auto;
+	width: 960px;
+	overflow: hidden;
+}
+
+.tlbox{
+	list-style-type: none;
+	width: 1510px;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	border-left: 1px solid #ccc;
+
+}
+
+.tlbox li{
+	width: 150px;
+	min-height: 500px;
+	float: left;
+	border-right: 1px solid #ccc;
+	margin-bottom:-1000px;
+	padding-bottom:1000px;
+}
+
+
+.oddtl{
+	background: #eee;
+}
+
+.eventl{
+	background: #fff;
+}
+
+.tldate{
+	margin: 5px;
+	padding: 3px;
+	color: #ddd;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-shadow: -1px -1px 0 #9f9f9f;
+}
+
+.tlphoto{
+	position:relative;
+	padding: 5px;
+}
+
+.tlphoto a{
+	display: block;
+	position: relative;
+	width: 140px;
+	z-index: 20;
+}
+
+.tlphoto a img{
+	width:140px;
+	position: relative;
+	display: block;
+}
+
+.overlay{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: url(../images/overlay.png);
+	opacity: 0;
+	text-align: center;
+	margin: 0;
+	font-size: 10px;
+	color: #fff;
+	z-index: 30;
+}
+
+.overlay:hover{
+	opacity:1;
+}
+
+.overlayinner{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin-top: -10px;
+	height: 20px;
+	line-height:20px;
+}
+
+.star{
+	position: absolute;
+	top:5px;
+	left:5px;
+	padding: 0 5px 5px 0;
+	z-index: 40;
+	color: #666;
+	line-height:12px;
+	font-size:12px;
+	background: #fff;
+	border-radius: 0 0 5px 0;
+}
+
+.oddtl .star{
+	background:#eee;
+}
+
+
+.comment{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.photoauthor{
+	position: absolute;
+	bottom:0;
+	right:0;
+	z-index: 50;
+}
+
+.photoauthor img{
+	width: 24px;	
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+
+.oddtl .photoauthor img{
+	border: 1px solid #eee;
+}
+
+#tlamazon{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	font-size:10px;
+}
+
+#footer{
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	z-index: 200;
+	color: #000;
+	padding: 10px;
+}
+
+.contents{
+	position: relative;
+	z-index: 200;
+}
+
+.ui-flickable-container {
+	cursor: default;
+	background: url(../images/richard.jpg) right 50% no-repeat, url(../images/richard.jpg) left 50% no-repeat;
+}
+
+.ui-flickable-wrapper{
+	background: #f3f3f3 !important;
+}
+
+.ui-flickable-disabled .ui-flickable-container, .ui-flickable-canceled {
+	cursor: default;
+}
